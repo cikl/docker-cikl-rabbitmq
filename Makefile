@@ -1,5 +1,5 @@
 NAME = cikl/rabbitmq
-VERSION = 0.0.3-pre
+VERSION = 0.0.3
 
 .PHONY: all build tag_latest
 
