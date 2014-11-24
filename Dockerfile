@@ -4,7 +4,7 @@ MAINTAINER Mike Ryan <falter@gmail.com>
 RUN \
   export DEBIAN_FRONTEND=noninteractive && \
   apt-get update && \
-  apt-get install -y rabbitmq-server && \
+  apt-get install -y rabbitmq-server=3.2.4-1 && \
   apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN gpg --keyserver pgp.mit.edu --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4

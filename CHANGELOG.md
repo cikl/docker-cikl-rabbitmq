@@ -3,6 +3,7 @@ Next
 
 * Add your message and a link to your github account right below this line.
 * Add .dockerignore
+* Hardcode rabbitmq-server to 3.2.4-1
 
 0.0.2
 ====
